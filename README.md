@@ -44,17 +44,6 @@ List of additional automatic subtitles to download. The entry `all` matches all 
 
 The default is `[]`.
 
-#### Flatpak
-
-```
-flatpak run --command=gsettings com.github.unrud.VideoDownloader set com.github.unrud.VideoDownloader automatic-subtitles "['de','en']"
-```
-
-#### Snap
-
-```
-snap run --shell video-downloader -c 'gsettings "$@"' '' set com.github.unrud.VideoDownloader automatic-subtitles "['de','en']"
-```
 
 ## Debug
 
